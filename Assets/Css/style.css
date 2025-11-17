@@ -1,0 +1,64 @@
+/* General styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #198754, #20c997);
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffe066 !important;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Tables */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #198754;
+    color: #fff;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #198754;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #145c32;
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: #198754;
+    color: #fff;
+    text-align: center;
+}
